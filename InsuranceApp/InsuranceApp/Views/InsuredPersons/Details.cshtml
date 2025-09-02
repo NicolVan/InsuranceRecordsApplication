@@ -1,0 +1,73 @@
+﻿@model InsuranceApp.Models.InsuredPerson
+@{
+    ViewData["Title"] = "Profile";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="card mb-4">
+    <div class="card-body row">
+        <div class="col-md-5">
+            <h5 class="card-title">@Model.FullName</h5>
+            <p class="mb-1"><strong>Street:</strong> @Model.Street</p>
+            <p class="mb-1"><strong>City:</strong> @Model.City</p>
+            <p class="mb-1"><strong>PostCode:</strong> @Model.PostCode</p>
+        </div>
+        <div class="col-md-5">
+            <p class="mb-1"><strong>Phone:</strong> @Model.PhoneNumber</p>
+            <p class="mb-1"><strong>Email:</strong> @Model.ApplicationUser.Email</p>
+        </div>
+    </div>
+</div>
+
+<h4 class="mt-5 mb-3">Arranged Insurances</h4>
+
+@if (Model.Insurances != null && Model.Insurances.Any())
+{
+    <table class="table table-bordered align-middle">
+        <thead class="table-light">
+            <tr>
+                <th>Insurance</th>
+                <th>Subject</th>
+                <th>Amount</th>
+                <th>From</th>
+                <th>To</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var i in Model.Insurances)
+            {
+                <tr>
+                    <td>@i.InsuranceName</td>
+                    <td>@i.SubjectName</td>
+                    <td>@String.Format("{0:N0} €", i.Amount)</td>
+                    <td>@i.From.ToString("dd.MM.yyyy")</td>
+                    <td>@i.To.ToString("dd.MM.yyyy")</td>
+                    <td>
+                        <a asp-controller="Insurances" asp-action="Details" asp-route-id="@i.InsuranceId" class="btn btn-primary btn-sm me-1">Detail</a>
+                        @if (User.IsInRole("Admin") || User.IsInRole("Agent"))
+                        {
+                            <a asp-controller="Insurances" asp-action="Edit" asp-route-id="@i.InsuranceId" class="btn btn-warning btn-sm me-1">Edit</a>
+                            <a asp-controller="Insurances" asp-action="Delete" asp-route-id="@i.InsuranceId" class="btn btn-danger btn-sm">Delete</a>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>This person currently has no arranged insurances.</p>
+}
+
+
+<div class="mt-4">
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning me-2">Edit Insured Person</a>
+    <a asp-controller="Insurances" asp-action="Create" asp-route-insuredPersonId="@Model.Id" class="btn btn-primary me-2">Add Insurance</a>
+    @if (User.IsInRole("Admin") || User.IsInRole("Agent"))
+    {
+        <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger me-2">Delete Insured Person</a>
+        <a asp-action="Index" class="btn btn-secondary">Back</a>
+    }
+</div>

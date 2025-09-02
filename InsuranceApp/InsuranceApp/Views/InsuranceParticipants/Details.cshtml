@@ -1,0 +1,19 @@
+﻿@model InsuranceApp.Models.InsuranceParticipant
+
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <p><strong>Role:</strong> @Model.Role</p>
+        <p><strong>Insurance:</strong>@Model.Insurance.InsuranceName</p>
+        <p><strong>InsuredPerson:</strong>@Model.InsuredPerson.FullName</p>
+    </div>
+</div>
+
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+<a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger me-2">Delete</a>
+<a asp-action="Index" class="btn btn-secondary ms-2">Back</a>

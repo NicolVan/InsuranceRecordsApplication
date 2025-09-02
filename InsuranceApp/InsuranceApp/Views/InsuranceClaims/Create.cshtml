@@ -1,0 +1,46 @@
+﻿@model InsuranceApp.Models.InsuranceClaim
+@{
+    ViewData["Title"] = "Add Incident ";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Create" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="InsuranceId" />
+    <input type="hidden" asp-for="InsuredPersonId" />
+    <div class="form-group">
+        @Html.LabelFor(m => m.Status)
+        @Html.DropDownListFor(m => m.Status,(IEnumerable<SelectListItem>)ViewBag.Statuses,"Select status",new { @class = "form-control" })
+        <span asp-validation-for="Status" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Insurance</label>
+        <input type="text" class="form-control" value="@ViewData["InsuranceName"]" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Insured Person</label>
+        <input type="text" class="form-control" value="@ViewData["InsuredPersonName"]" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Description" class="form-label"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="OccurredOn" class="form-label"></label>
+        <input asp-for="OccurredOn" class="form-control" type="datetime-local" />
+        <span asp-validation-for="OccurredOn" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="EstimatedDamage" class="form-label"></label>
+        <input asp-for="EstimatedDamage" class="form-control" />
+        <span asp-validation-for="EstimatedDamage" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</form>

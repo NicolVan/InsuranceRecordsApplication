@@ -1,0 +1,44 @@
+﻿@model InsuranceApp.Models.InsuranceClaim
+
+@{
+    ViewData["Title"] = "Edit Incident";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Edit">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        @Html.LabelFor(m => m.Status)
+        @Html.DropDownListFor(model => model.Status, (IEnumerable<SelectListItem>)ViewData["Status"], "Select status", new { @class = "form-control" })
+        <span asp-validation-for="Status" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description" class="control-label"></label>
+        <input asp-for="Description" class="form-control" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="OccurredOn" class="control-label"></label>
+        <input asp-for="OccurredOn" class="form-control" type="datetime-local" />
+        <span asp-validation-for="OccurredOn" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EstimatedDamage" class="control-label"></label>
+        <input asp-for="EstimatedDamage" class="form-control" />
+        <span asp-validation-for="EstimatedDamage" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="InsuranceId" class="control-label"></label>
+        <select asp-for="InsuranceId" class="form-control" asp-items="ViewBag.InsuranceId"></select>
+        <span asp-validation-for="InsuranceId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="InsuredPersonId" class="control-label"></label>
+        <select asp-for="InsuredPersonId" class="form-control" asp-items="ViewBag.InsuredPersonId"></select>
+        <span asp-validation-for="InsuredPersonId" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-warning mt-4">Save</button>
+    <a asp-action="Index" class="btn btn-secondary mt-4 ms-2">Back to List</a>
+</form>

@@ -1,0 +1,316 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nikol\\source\\InsuranceApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|c:\\users\\nikol\\source\\insuranceapp\\insuranceapp\\controllers\\insuredpersonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|solutionrelative:insuranceapp\\controllers\\insuredpersonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|c:\\users\\nikol\\source\\insuranceapp\\insuranceapp\\views\\admin\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|solutionrelative:insuranceapp\\views\\admin\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|c:\\users\\nikol\\source\\insuranceapp\\insuranceapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|solutionrelative:insuranceapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|c:\\users\\nikol\\source\\insuranceapp\\insuranceapp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|solutionrelative:insuranceapp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|c:\\users\\nikol\\source\\insuranceapp\\insuranceapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|solutionrelative:insuranceapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|c:\\users\\nikol\\source\\insuranceapp\\insuranceapp\\models\\insuredperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|solutionrelative:insuranceapp\\models\\insuredperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|c:\\users\\nikol\\source\\insuranceapp\\insuranceapp\\controllers\\insuranceclaimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|solutionrelative:insuranceapp\\controllers\\insuranceclaimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|c:\\users\\nikol\\source\\insuranceapp\\insuranceapp\\models\\insurance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|solutionrelative:insuranceapp\\models\\insurance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|c:\\users\\nikol\\source\\insuranceapp\\insuranceapp\\views\\insuranceclaims\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|solutionrelative:insuranceapp\\views\\insuranceclaims\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|c:\\users\\nikol\\source\\insuranceapp\\insuranceapp\\views\\insuranceclaims\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|solutionrelative:insuranceapp\\views\\insuranceclaims\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|c:\\users\\nikol\\source\\insuranceapp\\insuranceapp\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|solutionrelative:insuranceapp\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|c:\\users\\nikol\\source\\insuranceapp\\insuranceapp\\models\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|solutionrelative:insuranceapp\\models\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|c:\\users\\nikol\\source\\insuranceapp\\insuranceapp\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|solutionrelative:insuranceapp\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|c:\\users\\nikol\\source\\insuranceapp\\insuranceapp\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|solutionrelative:insuranceapp\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|c:\\users\\nikol\\source\\insuranceapp\\insuranceapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|solutionrelative:insuranceapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|c:\\users\\nikol\\source\\insuranceapp\\insuranceapp\\models\\changepasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|solutionrelative:insuranceapp\\models\\changepasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|c:\\users\\nikol\\source\\insuranceapp\\insuranceapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|solutionrelative:insuranceapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|c:\\users\\nikol\\source\\insuranceapp\\insuranceapp\\views\\insurances\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2EE55308-824C-468E-A0CC-9947B144D5C3}|InsuranceApp\\InsuranceApp.csproj|solutionrelative:insuranceapp\\views\\insurances\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 2184,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "InsuranceApp\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "InsuranceApp\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwEYAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T16:54:49.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "InsuranceApp\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "InsuranceApp\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T16:54:44.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InsuredPerson.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Models\\InsuredPerson.cs",
+              "RelativeDocumentMoniker": "InsuranceApp\\Models\\InsuredPerson.cs",
+              "ToolTip": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Models\\InsuredPerson.cs",
+              "RelativeToolTip": "InsuranceApp\\Models\\InsuredPerson.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAcwCQAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T16:26:22.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Insurance.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Models\\Insurance.cs",
+              "RelativeDocumentMoniker": "InsuranceApp\\Models\\Insurance.cs",
+              "ToolTip": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Models\\Insurance.cs",
+              "RelativeToolTip": "InsuranceApp\\Models\\Insurance.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwDwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T15:12:24.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Views\\InsuranceClaims\\Edit.cshtml",
+              "RelativeDocumentMoniker": "InsuranceApp\\Views\\InsuranceClaims\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Views\\InsuranceClaims\\Edit.cshtml",
+              "RelativeToolTip": "InsuranceApp\\Views\\InsuranceClaims\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T14:55:04.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Views\\InsuranceClaims\\Create.cshtml",
+              "RelativeDocumentMoniker": "InsuranceApp\\Views\\InsuranceClaims\\Create.cshtml",
+              "ToolTip": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Views\\InsuranceClaims\\Create.cshtml",
+              "RelativeToolTip": "InsuranceApp\\Views\\InsuranceClaims\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAD4vyEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T14:54:55.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "InsuranceApp\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "InsuranceApp\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T14:20:53.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InsuranceClaimsController.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Controllers\\InsuranceClaimsController.cs",
+              "RelativeDocumentMoniker": "InsuranceApp\\Controllers\\InsuranceClaimsController.cs",
+              "ToolTip": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Controllers\\InsuranceClaimsController.cs",
+              "RelativeToolTip": "InsuranceApp\\Controllers\\InsuranceClaimsController.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAmwGIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T18:19:25.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "InsuranceApp\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "InsuranceApp\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T18:18:45.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Models\\Enums.cs",
+              "RelativeDocumentMoniker": "InsuranceApp\\Models\\Enums.cs",
+              "ToolTip": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Models\\Enums.cs",
+              "RelativeToolTip": "InsuranceApp\\Models\\Enums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T18:18:45.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "InsuranceApp\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "InsuranceApp\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T18:18:44.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ChangePasswordModel.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Models\\ChangePasswordModel.cs",
+              "RelativeDocumentMoniker": "InsuranceApp\\Models\\ChangePasswordModel.cs",
+              "ToolTip": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Models\\ChangePasswordModel.cs",
+              "RelativeToolTip": "InsuranceApp\\Models\\ChangePasswordModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T18:18:43.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Models\\IEmailService.cs",
+              "RelativeDocumentMoniker": "InsuranceApp\\Models\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Models\\IEmailService.cs",
+              "RelativeToolTip": "InsuranceApp\\Models\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T18:18:25.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InsuredPersonsController.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Controllers\\InsuredPersonsController.cs",
+              "RelativeDocumentMoniker": "InsuranceApp\\Controllers\\InsuredPersonsController.cs",
+              "ToolTip": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Controllers\\InsuredPersonsController.cs",
+              "RelativeToolTip": "InsuranceApp\\Controllers\\InsuredPersonsController.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAmwHwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T18:00:29.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Views\\Insurances\\Create.cshtml",
+              "RelativeDocumentMoniker": "InsuranceApp\\Views\\Insurances\\Create.cshtml",
+              "ToolTip": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Views\\Insurances\\Create.cshtml",
+              "RelativeToolTip": "InsuranceApp\\Views\\Insurances\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-31T17:16:38.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserList.cshtml",
+              "DocumentMoniker": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Views\\Admin\\UserList.cshtml",
+              "RelativeDocumentMoniker": "InsuranceApp\\Views\\Admin\\UserList.cshtml",
+              "ToolTip": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Views\\Admin\\UserList.cshtml",
+              "RelativeToolTip": "InsuranceApp\\Views\\Admin\\UserList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-27T16:15:53.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "InsuranceApp\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "InsuranceApp\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T15:59:05.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Program.cs",
+              "RelativeDocumentMoniker": "InsuranceApp\\Program.cs",
+              "ToolTip": "C:\\Users\\nikol\\source\\InsuranceApp\\InsuranceApp\\Program.cs",
+              "RelativeToolTip": "InsuranceApp\\Program.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAqwF0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T15:56:35.76Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

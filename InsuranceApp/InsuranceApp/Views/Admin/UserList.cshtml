@@ -1,0 +1,35 @@
+﻿
+@model IEnumerable<UserWithRolesVm>
+
+<h2>Users</h2>
+<table class="table table-bordered align-middle">
+    <thead class="table-light">
+        <tr>
+            <th>Email</th>
+            <th>Full Name</th>
+            <th>Current Role</th>
+            <th>Change Role</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var user in Model)
+    {
+        <tr>
+            <td>@user.Email</td>
+            <td>@user.FullName</td>
+            <td>@string.Join(", ", user.Roles)</td>
+            <td>
+                <form asp-action="ChangeRole" method="post">
+                    <input type="hidden" name="userId" value="@user.Id" />
+                    <select name="newRole">
+                        <option value="Client">Client</option>
+                        <option value="Agent">Agent</option>
+                        <option value="Admin">Admin</option>
+                    </select>
+                    <button type="submit">Zmeniť</button>
+                </form>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

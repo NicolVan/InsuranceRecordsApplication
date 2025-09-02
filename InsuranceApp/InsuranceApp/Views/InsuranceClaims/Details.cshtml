@@ -1,0 +1,23 @@
+﻿@model InsuranceApp.Models.InsuranceClaim
+
+@{
+    ViewData["Title"] = "Detail Incident";
+}
+
+<h3>@ViewData["Title"]</h3>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <p><strong>Description:</strong> @Model.Description</p>
+        <p><strong>Occurred On:</strong> @Model.OccurredOn</p>
+        <p><strong>Estimated Damage:</strong> @Model.EstimatedDamage</p>
+        <p><strong>Insurance:</strong>@Model.Insurance.InsuranceName</p>
+        <p><strong>InsuredPerson:</strong>@Model.InsuredPerson.FullName</p>
+    </div>
+</div>
+@if (User.IsInRole("Admin") || User.IsInRole("Agent"))
+{
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+    <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger me-2">Delete</a>
+}
+<a asp-action="Index" class="btn btn-secondary ms-2">Back</a>

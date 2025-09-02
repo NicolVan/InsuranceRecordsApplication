@@ -1,0 +1,22 @@
+﻿@model InsuranceApp.Models.InsuranceClaim
+
+@{
+    ViewData["Title"] = "Remove Incident";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="border p-3 mb-3">
+    <p><strong>Description:</strong> @Model.Description</p>
+    <p><strong>Occurred On:</strong> @Model.OccurredOn</p>
+    <p><strong>Estimated Damage (€):</strong> @Model.EstimatedDamage</p>
+    <p><strong>Insurance:</strong> @Model.Insurance.InsuranceName</p>
+    <p><strong>Insured Person:</strong> @Model.InsuredPerson?.FullName</p>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</form>
+

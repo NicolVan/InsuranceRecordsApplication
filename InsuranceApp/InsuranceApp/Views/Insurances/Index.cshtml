@@ -1,0 +1,50 @@
+﻿@model IEnumerable<InsuranceApp.Models.Insurance>
+
+@{
+    ViewData["Title"] = "Insurance";
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+<h2 class="mb-4">@ViewData["Title"]</h2>
+
+<table class="table table-bordered align-middle">
+    <thead class="table-light">
+        <tr>
+            <th>Insurance name</th>
+            <th>Subject</th>
+            <th>Amount</th>
+            <th>From</th>
+            <th>To</th>
+            <th>Insured Person</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.InsuranceName</td>
+                <td>@item.SubjectName</td>
+                <td>@String.Format("{0:N0} €", item.Amount)</td>
+                <td>@item.From.ToString("dd.MM.yyyy")</td>
+                <td>@item.To.ToString("dd.MM.yyyy")</td>
+                <td>@item.InsuredPerson?.FullName</td>
+                <td>
+
+                    <a asp-action="Details" asp-route-id="@item.InsuranceId" class="btn btn-info btn-sm me-1">Detail</a>
+                    <a asp-controller="InsuranceClaims" asp-action="Create" asp-route-insuranceId="@item.InsuranceId" class="btn btn-sm btn-light">Add Incident</a>
+                    @if (User.IsInRole("Admin") || User.IsInRole("Agent"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.InsuranceId" class="btn btn-warning btn-sm me-1">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@item.InsuranceId" class="btn btn-danger btn-sm">Delete</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

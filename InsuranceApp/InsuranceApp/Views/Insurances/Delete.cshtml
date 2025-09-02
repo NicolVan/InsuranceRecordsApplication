@@ -1,0 +1,24 @@
+﻿@model InsuranceApp.Models.Insurance
+
+@{
+    ViewData["Title"] = "Delete Insurance";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h2 class="mb-4">Do you really want to remove this insurance?</h2>
+
+<div class="border p-3 mb-3">
+    <p><strong>Title:</strong> @Model.InsuranceName</p>
+    <p><strong>Subject:</strong> @Model.SubjectName</p>
+    <p><strong>Amount:</strong> @String.Format("{0:N0} €", Model.Amount)</p>
+    <p><strong>Insurance period:</strong> @Model.From.ToString("dd.MM.yyyy") – @Model.To.ToString("dd.MM.yyyy")</p>
+    <p><strong>Insured Person:</strong> @Model.InsuredPerson?.FullName</p>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="InsuranceId" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</form>
+

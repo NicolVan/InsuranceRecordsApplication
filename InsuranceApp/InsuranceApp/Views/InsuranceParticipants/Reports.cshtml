@@ -1,0 +1,26 @@
+﻿@model IEnumerable<dynamic>
+
+<h2>Report – Number of people insured</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Insurance</th>
+            <th>Total participants</th>
+            <th>Insured</th>
+            <th>Policy Holders</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.InsuranceName</td>
+                <td>@item.TotalParticipants</td>
+                <td>@item.TotalInsured</td>
+                <td>@item.TotalPolicyHolders</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

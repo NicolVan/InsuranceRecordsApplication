@@ -1,0 +1,29 @@
+﻿@model InsuranceApp.Models.InsuranceParticipant
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Edit">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        @Html.LabelFor(m => m.Role)
+        @Html.DropDownListFor(m => m.Role, (IEnumerable<SelectListItem>)ViewBag.RoleList, "Choose a role", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Role)
+    </div>
+    <div class="form-group">
+        <label asp-for="InsuranceId" class="control-label"></label>
+        <select asp-for="InsuranceId" class="form-control" asp-items="ViewBag.InsuranceId"></select>
+        <span asp-validation-for="InsuranceId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="InsuredPersonId" class="control-label"></label>
+        <select asp-for="InsuredPersonId" class="form-control" asp-items="ViewBag.InsuredPersonId"></select>
+        <span asp-validation-for="InsuredPersonId" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-warning">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</form>
